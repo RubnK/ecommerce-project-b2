@@ -57,6 +57,12 @@ h1 {
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all .2s linear;
+    font-weight: bold;
+}
+
+.remove:hover {
+    background-color: red;
 }
 
 .total {
@@ -72,4 +78,9 @@ h1 {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: all .2s linear;
+    font-weight: bold;
+}
+.checkout:hover {
+    background-color: green;
 }
