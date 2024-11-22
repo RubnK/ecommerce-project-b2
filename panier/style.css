@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 12rem;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item img {
+    width: fit-content;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.details h2 {
+    margin: 0;
+}
+
+.details p {
+    margin: 0;
+}
+
+.details label {
+    margin-right: 10px;
+}
+
+.details input {
+    width: 50px;
+}
+
+.remove {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 6%;
+}
+
+.checkout {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
